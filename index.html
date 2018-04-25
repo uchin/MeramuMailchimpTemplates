@@ -1,0 +1,389 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="format-detection" content="telephone=no"> 
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;">
+        <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+        
+        <title>MERAMU</title>        
+        
+    <style type="text/css">
+
+        /* Some resets and issue fixes */
+        #outlook a { padding:0; }
+        body{ width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0; }     
+        .ReadMsgBody {width: 100%;}
+        .ExternalClass {width:100%;} 
+        .backgroundTable {margin:0 auto; padding:0; width:100%;!important;} 
+        table td {border-collapse: collapse;}
+        .ExternalClass * {line-height: 115%;}           
+        /* End reset */
+
+
+        /* These are our tablet/medium screen media queries */
+        @media screen and (max-width: 630px){
+
+            /**[class="list"] td{padding: 0px 0px 48px 0px !important;border:none !important}*/
+            .list td{padding: 0px 0px 48px 0px !important;border:none !important}
+            /**[id="more"] {text-align: left !important;margin-bottom: 40px;}*/
+            #more {text-align: left !important;margin-bottom: 40px;}
+            /**[class="featured"] td{border:none !important;}*/
+            .featured td{border:none !important;}
+            /**[id="np"] {padding-bottom: 0px !important;}*/
+            #np {padding-bottom: 0px !important;}
+            /* Display block allows us to stack elements */                      
+            *[class="mobile-column"] {display: block;} 
+
+            /* Some more stacking elements */
+            *[class="mob-column"] {float: none !important;width: 100% !important;}     
+
+            /* centered */
+            *[class="center"] {text-align: center !important;} 
+            
+            /* padding or margin */
+            *[class="ptpb"] {padding-top:  20px !important; padding-bottom: 20px !important;} 
+            *[class="pt"] {padding-top:  20px !important;}  
+            *[class="pb"] {padding-bottom:  20px !important;} 
+            *[class="mt"] {margin-top:  20px !important;} 
+            *[class="nb"] {border:none !important;} 
+            *[class="np"] {padding-left:0px !important; padding-right:0px !important;} 
+            
+            /* Hide stuff */
+            *[class="hide"] {display:none !important;}          
+
+            /* This sets elements to 100% width and fixes the height issues too, a god send */
+            *[class="100p"] {width:100% !important; height:auto !important;}                    
+            .100p{width:100% !important; height:auto !important;}                    
+
+            /* For the 2x2 stack */
+            .condensed {/*padding-bottom:40px !important;*/ display: block;}
+
+            /* Centers content on mobile */      
+            .center {text-align:center !important; width:100% !important; height:auto !important;}            
+
+            /* 100percent width section with 20px padding */
+            .100pad{width:100% !important; padding:20px;} 
+
+            /* 100percent width section with 20px padding left & right */
+            .100padleftright {width:100% !important; padding:0 20px 0 20px;} 
+
+            /* 100percent width section with 20px padding top & bottom */
+            .100padtopbottom {width:100% !important; padding:20px 0px 20px 0px !important;}
+            
+            h1{
+                font-size: 40px !important;
+                letter-spacing: normal !important;
+            }
+            
+            h3{
+                font-size: 18px !important;
+                letter-spacing: normal !important;
+            }
+        
+        }
+        
+		img{
+			border:none;
+		}
+		a{
+			text-decoration:none;
+			font-weight:400;                        
+            color: #fff;
+		}
+		h1{
+			margin:0;
+			padding:0;
+			font-family:"Georgia";
+			font-size:60px;
+			color:#fff;
+			font-weight:400;
+            letter-spacing: 15px;
+		}
+		h2{
+			font-family:"Georgia";
+			font-size:24px;
+			color:#000;
+			font-weight:400;
+			margin:0;
+			padding:0;
+			text-transform:uppercase;
+			letter-spacing:5px;
+		}
+        h3{
+			font-family:"Georgia";
+			font-size:18px;
+			font-weight:600;
+			margin:0;
+			padding:0;
+			text-transform:uppercase;
+            letter-spacing: 11px;
+		}
+		p{
+			font-family:"Arial";
+			font-size:14px;
+			color:#aeaeae;
+			line-height:22px;
+			margin-bottom:32px;
+		}
+		.line{
+			width:95px;
+			display:block;
+			margin-top:10px;
+			height:1px;
+            margin-bottom:10px;
+            background: #000;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+		}
+		.line2{
+			background:#7b7b7b;
+			border-top:4px solid #7b7b7b;
+			border-bottom:3px solid #7b7b7b;
+			width:100%;
+			display:block;
+			margin-top:8px;
+		}
+		a span{
+			border-radius:6px;
+			margin-top:24px;
+			background:#00d4d1;
+			font-family:"Georgia";
+			color:#fff;
+			font-weight:620;
+			font-size:14px;
+		}
+        #header a{
+            text-decoration: underline;
+            padding-bottom: 2px;
+        }
+		#header a span{
+			font-size:14px;
+			font-weight:700;
+		}
+		#web a{
+			height:44px;            
+            text-decoration: none !important;
+		}
+		#web a span{
+			background:transparent;
+			font-weight:100;
+			font-size:14px;
+			letter-spacing:1px;
+			height:44px;
+            text-align: right;
+		}
+		#contact h2{
+			color:#fff;
+		}
+        #contact h1{
+			color:#fff;
+            font-size: 42px;            
+            letter-spacing: 11px;
+		}
+        #contact h3{
+			color:#ffdf04;
+            font-size: 12px;
+            letter-spacing: 8px;
+		}
+		#footer{
+			font-family:"Georgia";
+			font-size:14px;
+			color:#949494;
+		}
+		#footer a{
+			font-weight:400;
+			text-decoration:none;
+			color:#fff;
+		}
+		#footer a:hover{
+			text-decoration:underline;
+		}
+        
+        .content{
+            text-align: center;
+            font-family: "Georgia";
+            border-top: 1px solid #000;
+            border-bottom: 1px solid #000;
+            padding-top: 24px;
+            padding-bottom: 24px;
+            width: 302px;
+            
+        }
+        
+        .content p{
+            font-size: 14px;
+            margin-bottom: 12px;
+            font-family: "Georgia";
+        }
+        
+        .content span{
+            font-size: 11px;
+            text-transform:uppercase;
+            font-weight: 900;
+            font-style: italic;
+            letter-spacing: 2px;
+            line-height: 26px;
+        }
+        
+        .content h3{
+            letter-spacing: normal;
+            font-weight: 100;
+        }
+        .content .button{
+            margin-top: 28px;
+            margin-bottom: 26px;
+        }
+        
+        .content .button a{
+            padding: 5px 25px;
+            background: #000;
+            color: #fff;
+            text-transform: capitalize;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .list a{
+            padding: 0;
+        }
+        
+        
+        
+</style></head>
+    <body style="margin:0;padding:0;overflow-x: hidden;">
+        <table style="width:100%" cellspacing="0" cellpadding="0">
+            <tr style="text-align:center; background:#000;">
+                <td>
+                    <table id="header" style="height:275px;width:620px;margin-left:auto;margin-right:auto;padding-left:0px;padding-right:0px;" class="100p">
+                        <tr>
+                            <td width="70%" class="hide" style="border-bottom:1px solid #515151;font-size:14px;color:#b0b0b0;font-family:'Georgia';text-align:left;" mc:edit="logo">Having trouble viewing this email? <a href="#">View it in your browser</a></td>
+                            <td width="30%" class="hide" id="web" style="border-bottom:1px solid #515151;text-align:right;font-size:14px;color:#fff;font-family:'Georgia'"><a href="#" target="_blank" mc:edit="site"><span>visit our site</span></a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"  style="height:80px;text-align:center;padding-top:60px;padding-bottom:70px;" class="ptpb">
+                                <h1 mc:edit="maintitle">MERAMU</h1>
+                                <h3 mc:edit="maintitle" style="color:#ffde00;">newsletter shop</h3>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            
+            <tr style="background:#fff;">
+                <td>
+                    <table style="width:620px; margin-left:auto;margin-right:auto;padding-left:0px;padding-right:0px;background:#fff;" cellspacing="0" cellpadding="0" class="100p">
+                        <tr>
+                            <td colspan="2" style="text-align:center;padding-top:30px;" class="100p" valign="top">
+                                <div class="line"></div>
+                                <h2>Latest product</h2>
+                                <div class="line"></div>
+                            </td>                       
+                        </tr>
+                        
+                        
+                        <tr>
+                            <td colspan="2" style="text-align:center;padding-top:30px;" class="100p" valign="top">
+                                <a href="#"><img src="img/feature.png" alt="" style="display:block;width:100%;height:auto;margin-bottom:12px;" mc:edit="img1"></a>                               
+                            </td>                       
+                        </tr>
+                        
+                        <tr style="background:#fff;" class="list">
+                            <td valign="top" align="left" style="width:302px;padding-top:12px;border-bottom:1px solid #afafaf;padding-right:0px;" class="condensed">
+                                <a href="#"><img src="img/items0.png" alt="" style="display:block;width:100%;height:auto;"/></a> 
+                            </td>
+                            <td valign="top" align="right" style="width:302px;padding-top:12px;border-bottom:1px solid #afafaf;padding-left:16px;padding-bottom:40px;" class="condensed">
+                                <a href="#"><img src="img/thumb2.png" alt="" style="display:block;width:100%;height:auto;" /></a>
+                            </td>
+                        </tr>
+                        
+                        <tr style="background:#fff;" class="list">
+                            <td valign="top" align="left" style="width:302px;padding-top:40px;padding-bottom:20px;padding-right:0px" class="condensed">                                
+                                <a href="#"><img src="img/items1.png" alt="" style="display:block;width:100%;height:auto;" /></a>                           
+                            </td>
+                            <td valign="top" align="right" style="width:302px;padding-top:40px;padding-left:8px;" class="condensed">
+                                <div class="content">
+                                    <span>hot items!</span>
+                                    <h3>Photon email template</h3>
+                                    <p>Photon is a trendy email newsletter template that perfect for your next campaign. Photon is available in PSD and HTML version</p>
+                                    <div class="button"><a href="#">demo</a></div>
+                                </div>
+                                
+                                
+                            </td>
+                        </tr>
+                        
+                        <tr style="background:#fff;" class="list">
+                            
+                            <td valign="top" align="left" style="width:300px;padding-top:20px;" class="condensed">
+                                <div class="content">
+                                    <span>hot items!</span>
+                                    <h3>Miks email template</h3>
+                                    <p>Miks – A flat newsletter template that will featured your popular post or latest articles in an elegant way.</p>
+                                    <div class="button"><a href="#">demo</a></div>
+                                </div>
+                                
+                                
+                            </td>
+                            <td valign="top" align="right" style="width:300px;padding-top:20px;padding-left:18px;padding-bottom:20px;" class="condensed">                                
+                                <a href="#"><img src="img/items2.png" alt="" style="display:block;width:100%;height:auto;" /></a>                           
+                            </td>
+                        </tr>
+                        
+                         <tr style="background:#fff;" class="list">
+                            <td valign="top" align="left" style="width:300px;padding-top:20px;padding-bottom:60px;" class="condensed">                                
+                                    <a href="#"><img src="img/items3.png" alt="" style="display:block;width:100%;height:auto;margin-bottom:18px;" /></a>
+                                    <div class="content">
+                                        <span>hot items!</span>
+                                        <h3>Horisonz email template</h3>
+                                        <p>Horisonz is a trendy email newsletter template that perfect for your next campaign. Photon is available in PSD and HTML version</p>
+                                        <div class="button"><a href="#">demo</a></div>
+                                    </div>
+                            </td>
+                            <td valign="top" align="right" style="width:300px;padding-top:20px;padding-left:18px;padding-bottom:60px;" class="condensed">
+                                <a href="#"><img src="img/items4.png" alt="" style="display:block;width:100%;height:auto;margin-bottom:18px;" /></a>
+                                    <div class="content" style="">
+                                        <span>hot items!</span>
+                                        <h3>Phstock email template</h3>
+                                        <p>PHStock is a beautiful email template that will help you display your photo gallery or the other creative works in elegant way.</p>
+                                        <div class="button"><a href="#">demo</a></div>
+                                    </div>
+                                
+                                
+                            </td>
+                        </tr>
+                        
+                        
+                    </table>
+                </td>
+            </tr>
+            
+            <tr style="height:208px;background:#000;">
+                <td>
+                    <table id="contact" style="width:620px;margin-left:auto;margin-right:auto;padding-left:0px;padding-right:0px;" cellspacing="0" cellpadding="0" class="100p">
+                        <tr valign="top" style="height:100px;">
+                            <td valign="top" style="text-align:left;width:250px;padding-top:10px;padding-bottom:30px;" class="condensed">
+                                <h1>MERAMU</h1>
+                                <h3>NEWSLETTER SHOP</h3>
+                            </td>
+                            <td valign="top" style="text-align:right;" class="condensed">
+                                <div style="margin-top:20px;padding-bottom:30px;">
+                                <a href="#" target="_blank" mc:edit="sos1" style="margin-top:12px;"><img src="https://gallery.mailchimp.com/3218d97c2bd4c81fe8a4511fa/images/af7c4060-ac09-4e4a-bc51-7ea7ba8730de.png" alt="twitter" style="width:42px;height:43px;display:inline-block;padding-right:10px;"></a>
+                                <a href="#" target="_blank" mc:edit="sos2"><img src="https://gallery.mailchimp.com/3218d97c2bd4c81fe8a4511fa/images/63116860-a5c8-44d3-acc3-f7bbe2c3fd2c.png" alt="twitter" style="width:42px;height:43px;display:inline-block;padding-right:10px;"></a>
+                                <a href="#" target="_blank" mc:edit="sos3"><img src="https://gallery.mailchimp.com/3218d97c2bd4c81fe8a4511fa/images/92f86dd3-a9d3-4648-be19-0631419c38a9.png" alt="gplus" style="width:42px;height:43px;display:inline-block;padding-right:10px;"></a>
+                                <a href="#" target="_blank" mc:edit="sos4"><img src="https://gallery.mailchimp.com/3218d97c2bd4c81fe8a4511fa/images/bb11d3a4-939b-4f66-90d8-18c903a14a0b.png" alt="pinterest" style="width:42px;height:43px;display:inline-block;padding-right:10px;"></a>
+                                <a href="#" target="_blank" mc:edit="sos5"><img src="https://gallery.mailchimp.com/3218d97c2bd4c81fe8a4511fa/images/2a4c659f-1e80-491c-b085-d08c7603f0b2.png" alt="behance" style="width:42px;height:43px;display:inline-block;"></a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr id="footer" valign="middle" style="height:60px;">
+                            <td mc:edit="footer" colspan="3" style="border-top:1px solid #7b7b7b;width:270px;padding-left:6px;padding-right:30px;text-align:center;padding-top:16px;padding-bottom:16px;">Copyright © 2015 OmahPSD.com. <a href="#">Terms & Conditions</a> | <a href="#">Privacy Policy</a></td>
+                        </tr>
+                    </table>
+                </td>
+        </tr>
+        </table>
+    </body>
+</html>
